@@ -9,8 +9,8 @@ const commands: { cmd: string; desc: string; action: () => void }[] = [
   { cmd: "education", desc: "education & languages", action: () => scrollTo("education") },
   { cmd: "contact", desc: "get in touch", action: () => scrollTo("contact") },
   { cmd: "email", desc: "open mail client", action: () => (window.location.href = "mailto:bejaoui.safouane@gmail.com") },
-  { cmd: "linkedin", desc: "open linkedin", action: () => window.open("https://linkedin.com/in/safouane-bejaoui", "_blank") },
-  { cmd: "github", desc: "open github", action: () => window.open("https://github.com", "_blank") },
+  { cmd: "linkedin", desc: "open linkedin", action: () => window.open("https://www.linkedin.com/in/safouane-bejaoui-568a83231", "_blank") },
+  { cmd: "github", desc: "open github", action: () => window.open("https://github.com/safouanebej", "_blank") },
   { cmd: "help", desc: "show all commands", action: () => {} },
 ];
 

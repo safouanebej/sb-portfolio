@@ -92,7 +92,7 @@ export function Hero() {
                 <div>
                   <dt className="text-muted-foreground text-xs">linkedin</dt>
                   <dd>
-                    <a href="https://linkedin.com/in/safouane-bejaoui" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
+                    <a href="https://www.linkedin.com/in/safouane-bejaoui-568a83231" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
                       /in/safouane-bejaoui
                     </a>
                   </dd>
@@ -100,7 +100,7 @@ export function Hero() {
                 <div>
                   <dt className="text-muted-foreground text-xs">github</dt>
                   <dd>
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
+                    <a href="https://github.com/safouanebej" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
                       /safouane-bejaoui
                     </a>
                   </dd>
