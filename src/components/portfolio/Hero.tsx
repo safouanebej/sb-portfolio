@@ -69,9 +69,6 @@ export function Hero() {
                 <a href="#projects" className="btn-terminal btn-terminal-primary">
                   <span>▸</span> view_projects
                 </a>
-                <a href="/cv.pdf" download className="btn-terminal">
-                  <span>↓</span> download_cv
-                </a>
                 <a href="#contact" className="btn-terminal">
                   <span>@</span> contact_me
                 </a>

@@ -20,7 +20,7 @@ export function Contact() {
         <SectionHeader command="contact --init" title="Contact" />
 
         <div className="grid lg:grid-cols-5 gap-5">
-          <TerminalPanel path="~/contact" title="send_message.sh" className="lg:col-span-3">
+          <TerminalPanel path="~/contact" title="send_message.sh" className="lg:col-span-5">
             <form onSubmit={onSubmit} className="space-y-4">
               <Field label="name" name="name" required placeholder="your_name" />
               <Field label="email" name="email" type="email" required placeholder="you@domain.com" />
@@ -52,23 +52,14 @@ export function Contact() {
             </div>
           </TerminalPanel>
 
-          <div className="lg:col-span-2 space-y-4">
+          <div className="lg:col-span-5 space-y-4">
             <TerminalPanel path="~/contact" title="channels">
               <dl className="font-mono text-sm space-y-3.5">
                 <Channel k="email" v="bejaoui.safouane@gmail.com" href="mailto:bejaoui.safouane@gmail.com" />
                 <Channel k="phone" v="+49 176 7679 3134" href="tel:+4917676793134" />
-                <Channel k="linkedin" v="/in/safouane-bejaoui" href="https://linkedin.com/in/safouane-bejaoui" />
-                <Channel k="github" v="/safouane-bejaoui" href="https://github.com" />
+                <Channel k="linkedin" v="/in/safouane-bejaoui" href="https://www.linkedin.com/in/safouane-bejaoui-568a83231" />
+                <Channel k="github" v="/safouane-bejaoui" href="https://github.com/safouanebej" />
               </dl>
-            </TerminalPanel>
-
-            <TerminalPanel path="~/cv" title="resume.pdf">
-              <p className="text-sm text-foreground/85 mb-4">
-                Full CV with detailed experience, projects, and references.
-              </p>
-              <a href="/cv.pdf" download className="btn-terminal btn-terminal-primary w-full justify-center">
-                <span>↓</span> download_cv.pdf
-              </a>
             </TerminalPanel>
           </div>
         </div>
