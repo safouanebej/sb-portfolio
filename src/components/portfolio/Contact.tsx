@@ -56,7 +56,6 @@ export function Contact() {
             <TerminalPanel path="~/contact" title="channels">
               <dl className="font-mono text-sm space-y-3.5">
                 <Channel k="email" v="bejaoui.safouane@gmail.com" href="mailto:bejaoui.safouane@gmail.com" />
-                <Channel k="phone" v="+49 176 7679 3134" href="tel:+4917676793134" />
                 <Channel k="linkedin" v="/in/safouane-bejaoui" href="https://www.linkedin.com/in/safouane-bejaoui-568a83231" />
                 <Channel k="github" v="/safouane-bejaoui" href="https://github.com/safouanebej" />
               </dl>

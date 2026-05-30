@@ -80,10 +80,6 @@ export function Hero() {
             <TerminalPanel path="~/contact" title="meta.info">
               <dl className="font-mono text-sm space-y-3">
                 <div>
-                  <dt className="text-muted-foreground text-xs">phone</dt>
-                  <dd className="text-foreground">+49 176 7679 3134</dd>
-                </div>
-                <div>
                   <dt className="text-muted-foreground text-xs">email</dt>
                   <dd className="text-terminal break-all">
                     <a href="mailto:bejaoui.safouane@gmail.com">bejaoui.safouane@gmail.com</a>
