@@ -51,7 +51,7 @@ export function Hero() {
                   Safouane Bejaoui
                 </h1>
                 <p className="font-mono text-sm sm:text-base text-amber">
-                  Junior Software Engineer <span className="text-muted-foreground">|</span> AI Engineer <span className="text-muted-foreground">|</span> CS @ TUM
+                  Junior Software Engineer <span className="text-muted-foreground">|</span> Applied AI Engineer <span className="text-muted-foreground">|</span> CS @ TUM
                 </p>
                 <p className="font-mono text-xs text-muted-foreground flex items-center gap-2">
                   <span className="text-terminal">▸</span> Munich, Germany

@@ -2,44 +2,49 @@ import { TerminalPanel, SectionHeader } from "./TerminalPanel";
 
 const groups = [
   {
-    name: "ai_ml",
-    label: "Artificial Intelligence & ML",
-    items: ["Generative AI", "Agentic AI", "LLMs", "RAG", "RAG Pipelines", "LangChain", "LangFlow", "Prompt Engineering", "Fine-tuning", "Autonomous Agents", "TensorFlow", "PyTorch", "Hugging Face", "Computer Vision", "OpenCV", "YOLOv8", "CNNs"],
-  },
-  {
     name: "languages",
     label: "Programming Languages",
-    items: [{ name: "Python", level: "advanced" }, "Java", "JavaScript", "TypeScript"],
-  },
-  {
-    name: "cloud_ops",
-    label: "Cloud · MLOps · LLMOps",
-    items: ["MLOps", "LLMOps", "CI/CD", "Cloud Deployment", "Docker", "Kubernetes", "Production Systems", "Monitoring", "Observability", "GitLab", "Jenkins"],
+    items: [{ name: "Python", level: "advanced" }, "Java", "TypeScript", "JavaScript"],
   },
   {
     name: "software_dev",
     label: "Software Development",
-    items: ["OOP", "Software Integration", "API Development", "Git", "SW Engineering Principles"],
+    items: ["OOP", "Software Architecture", "API Development", "Git", "Debugging", "Testing", "Code Review", "Agile Development"],
   },
   {
     name: "backend",
     label: "Backend & APIs",
-    items: ["FastAPI", "Flask", "Backend Services", "RESTful APIs"],
+    items: ["FastAPI", "RESTful APIs", "Backend Services", "API Design", "Authentication"],
   },
   {
     name: "databases",
     label: "Databases",
-    items: ["PostgreSQL", "SQLite", "MongoDB", "Milvus", "Vector Databases", "Database Design", "Data Modeling"],
+    items: ["PostgreSQL", "SQLite", "MongoDB", "Database Design", "Data Modeling", "Vector Databases"],
   },
   {
     name: "qa",
     label: "Testing & QA",
-    items: ["Test Automation", "SW Quality Assurance", "Debugging", "Performance Optimization", "Jira"],
+    items: ["Test Automation", "SW Quality Assurance", "Debugging", "Performance Optimization", "Test Coverage"],
+  },
+  {
+    name: "cloud_ops",
+    label: "Cloud · DevOps · MLOps",
+    items: ["Cloud Deployment", "CI/CD", "Docker", "Kubernetes", "MLOps", "Monitoring", "Observability", "GitLab", "Jenkins"],
+  },
+  {
+    name: "ai_ml",
+    label: "Artificial Intelligence & ML",
+    items: ["LLMs", "RAG", "Prompt Engineering", "Agentic AI", "PyTorch", "TensorFlow", "Hugging Face", "Computer Vision"],
   },
   {
     name: "networking",
     label: "Networking",
-    items: ["TCP/IP", "HTTP/HTTPS", "DNS", "IPv4/IPv6", "ICMP", "OSPF", "Routing Fundamentals"],
+    items: ["TCP/IP", "HTTP/HTTPS", "DNS", "IPv4/IPv6", "OSPF", "Routing Fundamentals"],
+  },
+  {
+    name: "frontend",
+    label: "Frontend",
+    items: ["React", "TypeScript", "Tailwind CSS", "Responsive UI", "Accessibility"],
   },
 ];
 

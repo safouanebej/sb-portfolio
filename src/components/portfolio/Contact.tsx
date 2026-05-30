@@ -20,7 +20,7 @@ export function Contact() {
         <SectionHeader command="contact --init" title="Contact" />
 
         <div className="grid lg:grid-cols-5 gap-5">
-          <TerminalPanel path="~/contact" title="send_message.sh" className="lg:col-span-5">
+          <TerminalPanel path="~/contact" title="send_message.sh" className="lg:col-span-3">
             <form onSubmit={onSubmit} className="space-y-4">
               <Field label="name" name="name" required placeholder="your_name" />
               <Field label="email" name="email" type="email" required placeholder="you@domain.com" />
@@ -52,7 +52,7 @@ export function Contact() {
             </div>
           </TerminalPanel>
 
-          <div className="lg:col-span-5 space-y-4">
+          <div className="lg:col-span-2 space-y-4">
             <TerminalPanel path="~/contact" title="channels">
               <dl className="font-mono text-sm space-y-3.5">
                 <Channel k="email" v="bejaoui.safouane@gmail.com" href="mailto:bejaoui.safouane@gmail.com" />
