@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { TerminalPanel } from "./TerminalPanel";
+import portrait from "../../assets/images/cv.jpg";
 
 const bootLines = [
   { prefix: ">", text: "booting portfolio..." },
@@ -76,51 +77,48 @@ export function Hero() {
             </TerminalPanel>
           </div>
 
-          <div className="lg:col-span-2 space-y-4">
-            <TerminalPanel path="~/contact" title="meta.info">
-              <dl className="font-mono text-sm space-y-3">
-                <div>
-                  <dt className="text-muted-foreground text-xs">email</dt>
-                  <dd className="text-terminal break-all">
-                    <a href="mailto:bejaoui.safouane@gmail.com">bejaoui.safouane@gmail.com</a>
-                  </dd>
+          <div className="lg:col-span-2 flex flex-col space-y-4">
+            <div className="basis-[60%] flex-shrink-0 flex-grow-0 mx-auto w-full max-w-[22rem]">
+              <TerminalPanel path="~/portrait" title="image.jpeg" className="overflow-hidden h-full">
+                <div className="portrait-frame portrait-frame-compact mx-auto h-full">
+                  <img
+                    src={portrait}
+                    alt="Portrait of Safouane Bejaoui"
+                    className="h-full w-full object-cover object-center"
+                    loading="eager"
+                  />
                 </div>
-                <div>
-                  <dt className="text-muted-foreground text-xs">linkedin</dt>
-                  <dd>
-                    <a href="https://www.linkedin.com/in/safouane-bejaoui-568a83231" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
-                      /in/safouane-bejaoui
-                    </a>
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-muted-foreground text-xs">github</dt>
-                  <dd>
-                    <a href="https://github.com/safouanebej" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
-                      /safouane-bejaoui
-                    </a>
-                  </dd>
-                </div>
-              </dl>
-            </TerminalPanel>
+              </TerminalPanel>
+            </div>
 
-            <TerminalPanel path="~/status" title="now">
-              <div className="font-mono text-xs space-y-2">
-                <div className="flex items-center gap-2">
-                  <span className="dot dot-g animate-pulse" />
-                  <span className="text-foreground/90">available_for_hire</span>
-                </div>
-                <div className="text-muted-foreground">
-                  <span className="text-terminal">▸</span> AI / Software Engineering
-                </div>
-                <div className="text-muted-foreground">
-                  <span className="text-terminal">▸</span> Working Student @ Technica Engineering
-                </div>
-                <div className="text-muted-foreground">
-                  <span className="text-terminal">▸</span> B.Sc. CS @ TUM — graduating 2026
-                </div>
-              </div>
-            </TerminalPanel>
+            <div className="basis-[37%] flex-shrink-0 flex-grow-0 grid gap-4">
+              <TerminalPanel path="~/contact" title="meta.info" className="max-w-[26rem] mx-auto w-full h-full">
+                <dl className="font-mono text-sm space-y-2">
+                  <div className="flex items-center justify-between gap-4 border-b border-border/40 pb-2">
+                    <dt className="text-muted-foreground text-xs uppercase tracking-[0.2em]">email</dt>
+                    <dd className="text-terminal text-right break-all">
+                      <a href="mailto:bejaoui.safouane@gmail.com">bejaoui.safouane@gmail.com</a>
+                    </dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4 border-b border-border/40 pb-2">
+                    <dt className="text-muted-foreground text-xs uppercase tracking-[0.2em]">linkedin</dt>
+                    <dd className="text-right">
+                      <a href="https://www.linkedin.com/in/safouane-bejaoui-568a83231" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
+                        /in/safouane-bejaoui
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-muted-foreground text-xs uppercase tracking-[0.2em]">github</dt>
+                    <dd className="text-right">
+                      <a href="https://github.com/safouanebej" target="_blank" rel="noreferrer" className="text-accent hover:text-terminal">
+                        /safouane-bejaoui
+                      </a>
+                    </dd>
+                  </div>
+                </dl>
+              </TerminalPanel>
+            </div>
           </div>
         </div>
       </div>

@@ -13,7 +13,6 @@ const links = [
 
 export function Nav({ onOpenCommand }: { onOpenCommand: () => void }) {
   const [active, setActive] = useState("home");
-  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const obs = new IntersectionObserver(
@@ -62,33 +61,9 @@ export function Nav({ onOpenCommand }: { onOpenCommand: () => void }) {
             <button onClick={onOpenCommand} className="btn-terminal text-xs py-1.5 px-2.5 hidden sm:inline-flex">
               <span className="text-terminal">⌘</span> command
             </button>
-            <button
-              onClick={() => setOpen(!open)}
-              className="lg:hidden btn-terminal text-xs py-1.5 px-2.5"
-              aria-label="Toggle menu"
-            >
-              {open ? "✕" : "≡"}
-            </button>
           </div>
         </div>
-
-        {open && (
-          <div className="lg:hidden terminal-panel mt-2 p-2">
-            {links.map((l) => (
-              <a
-                key={l.id}
-                href={`#${l.id}`}
-                onClick={() => setOpen(false)}
-                className={cn(
-                  "block font-mono text-sm px-3 py-2 rounded",
-                  active === l.id ? "text-terminal" : "text-muted-foreground"
-                )}
-              >
-                {l.label}
-              </a>
-            ))}
-          </div>
-        )}
+        
       </div>
     </header>
   );

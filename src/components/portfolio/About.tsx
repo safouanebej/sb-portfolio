@@ -8,13 +8,13 @@ export function About() {
         <div className="grid lg:grid-cols-3 gap-5">
           <TerminalPanel path="~/about" title="summary.txt" className="lg:col-span-2">
             <p className="text-foreground/85 leading-relaxed">
-              I am a Computer Science student at the <span className="text-terminal font-mono">Technical University of Munich</span> with hands-on experience in software engineering, backend development, test automation, and applied AI systems. I work across the full development process, from designing reliable software components and APIs to integrating tools, automating workflows, and deploying practical applications.
+              Computer Science student at the <span className="text-terminal font-mono">Technical University of Munich</span> with hands-on experience in software engineering, backend development, test automation, and applied AI systems. Working across the full development process, from designing reliable software components and APIs to integrating tools, automating workflows, and deploying practical applications.
             </p>
             <p className="mt-4 text-foreground/85 leading-relaxed">
-              My experience includes internal software tools, backend services, QA and test automation, AI-supported development workflows, RAG-based knowledge retrieval, agentic systems, and technical integrations with platforms such as Jira, Confluence, and GitLab. I have worked with Python, Java, JavaScript, TypeScript, FastAPI, databases, Docker, CI/CD workflows, and modern AI frameworks.
+              Experience includes internal software tools, backend services, QA and test automation, AI-supported development workflows, RAG-based knowledge retrieval, agentic systems, and technical integrations with platforms such as Jira, Confluence, and GitLab. Worked with Python, Java, JavaScript, TypeScript, FastAPI, databases, Docker, CI/CD workflows, and modern AI frameworks.
             </p>
             <p className="mt-4 text-foreground/85 leading-relaxed">
-              I am interested in building reliable, maintainable systems that solve practical problems across software engineering, automation, and applied AI.
+              Interest in building reliable, maintainable systems that solve practical problems across software engineering, automation, and applied AI.
             </p>
           </TerminalPanel>
 
