@@ -3,6 +3,20 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const projects = [
   {
+    title: "SmartSpacer — Monitoring Web App for Bluetooth Implant Devices",
+    type: "Interdisciplinary Project (IDP) · Full-Stack",
+    institution: "Technical University of Munich",
+    dates: "Jul 2026 — Present",
+    tech: ["Python", "FastAPI", "Bluetooth LE", "WebSockets", "React", "TypeScript", "GitLab CI"],
+    description:
+      "Web application I built on my own to control and monitor Bluetooth implant devices in lab experiments: live sensor data, camera images, and per-experiment data storage.",
+    achievements: [
+      "Added automatic reconnection across several Bluetooth adapters for long-running experiments.",
+      "Built outage tracking with email alerts and a network page with statistics per experiment.",
+      "Turned researchers' feedback into regular releases and wrote guides for non-technical users.",
+    ],
+  },
+  {
     title: "Incubator-Based Monitoring System for Automated CFU Estimation",
     type: "Bachelor Thesis · AI + Embedded System",
     institution: "Technical University of Munich",
@@ -11,6 +25,7 @@ const projects = [
     description:
       "Redesigned an embedded monitoring system for automated bacterial colony estimation. Improved hardware stability and restructured the software architecture for reliability.",
     achievements: [
+      "Collected the training dataset with the system itself, trained the YOLOv8 model, and semi-automated the flow from data capture through training to deployment.",
       "Implemented and deployed a YOLOv8-based detection pipeline under embedded system constraints.",
       "Integrated backend services, computer vision workflows, camera processing, and web interface.",
       "Built a practical AI system combining software engineering, ML, and embedded deployment.",

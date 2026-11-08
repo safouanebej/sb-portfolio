@@ -5,7 +5,7 @@ const education = [
     school: "Technical University of Munich",
     degree: "B.Sc. Computer Science",
     location: "Munich, Germany",
-    dates: "Oct 2021 — Summer 2026",
+    dates: "Oct 2021 — Sep 2026",
   },
   {
     school: "DID Berlin",
