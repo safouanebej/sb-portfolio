@@ -26,7 +26,7 @@ export function About() {
                 ["backend", "FastAPI · APIs · Databases"],
                 ["ai", "RAG · Agents · LLMs"],
                 ["infra", "Docker · CI/CD"],
-                ["edu", "TUM B.Sc. CS"],
+                ["edu", "TUM M.Sc. CS"],
               ].map(([k, v]) => (
                 <li key={k} className="flex items-baseline justify-between gap-3 border-b border-border/50 pb-2 last:border-0">
                   <span className="text-muted-foreground">{k}</span>

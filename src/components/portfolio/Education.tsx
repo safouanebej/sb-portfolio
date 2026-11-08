@@ -3,6 +3,12 @@ import { TerminalPanel, SectionHeader } from "./TerminalPanel";
 const education = [
   {
     school: "Technical University of Munich",
+    degree: "M.Sc. Computer Science",
+    location: "Munich, Germany",
+    dates: "Oct 2026 — Present",
+  },
+  {
+    school: "Technical University of Munich",
     degree: "B.Sc. Computer Science",
     location: "Munich, Germany",
     dates: "Oct 2021 — Sep 2026",
